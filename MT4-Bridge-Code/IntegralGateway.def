@@ -1,0 +1,37 @@
+LIBRARY
+
+EXPORTS
+   iAbout
+	iStartup
+	iCleanup
+	iPluginCfgAdd
+	iPluginCfgSet
+	iPluginCfgGet
+	iPluginCfgNext
+	iPluginCfgDelete
+	iPluginCfgTotal
+	iSymbolsAdd
+	iUserAdd
+	iUserUpdate
+	iUserLoginExt
+	iTradeTransaction
+	iTradeRequestFilter
+	iTradeRequestApply
+	iTradesAddRequest
+	iTradesUpdate
+	iStatementsRollovers
+	iTradeStopoutsFilter
+	iTradeStopoutsApply
+	iTradeStopsFilter
+	iTradeStopsApply
+	iTradePendingsFilter
+	iTradePendingsApply
+	iLog
+	;iHistoryTickApply
+	iManagerProtocol
+	;iDealerConfirm
+	iScheduler
+	iService
+	iPerformance
+	iStatementsBaseAll
+	iGroupsAdd

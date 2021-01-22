@@ -1,0 +1,93 @@
+LIBRARY
+
+EXPORTS
+	MtSrvAbout
+	MtSrvStartup
+	MtSrvCleanup
+
+	MtSrvPluginCfgAdd
+	MtSrvPluginCfgSet
+	MtSrvPluginCfgGet
+	MtSrvPluginCfgNext
+	MtSrvPluginCfgDelete
+	MtSrvPluginCfgTotal
+	;MtSrvPluginCfgLog
+
+	MtSrvLog
+	MtSrvScheduler
+	MtSrvPerformance
+	MtSrvService
+
+	;MtSrvUserConnect
+	;MtSrvUserLogin
+	;MtSrvUserLogout
+	MtSrvUserLoginExt
+	;MtSrvUserDemo
+	;MtSrvUserCommand
+	;MtSrvUserChangePass
+	;MtSrvUserChangePassExt
+	MtSrvUserAdd
+	MtSrvUserUpdate
+	;MtSrvUserDelete
+	;MtSrvUserArchive
+	;MtSrvUserCompactDemo
+	;MtSrvUserCompactArchive
+	;MtSrvUserRestore
+	;MtSrvUserInterestDaily
+	;MtSrvUserInterestMonth
+	;MtSrvUserFixBalance
+
+	;MtSrvFeederData
+	;MtSrvFeederStart
+	;MtSrvFeederCheck
+	;MtSrvFeederStop
+
+	MtSrvGroupsAdd
+	;MtSrvGroupsDelete
+	MtSrvSymbolsAdd
+	;MtSrvSymbolsDelete
+	;MtSrvManagersAdd
+	;MtSrvManagersDelete
+
+	MtSrvTradeRequestFilter
+	MtSrvTradeRequestApply
+	;MtSrvTradeRequestRestore
+	MtSrvTradeTransaction
+	;MtSrvTradeCheckIE
+	MtSrvTradeStopsFilter
+	MtSrvTradeStopsApply
+	MtSrvTradePendingsFilter
+	MtSrvTradePendingsApply
+	MtSrvTradeStopoutsFilter
+	MtSrvTradeStopoutsApply
+	;MtSrvTradesAdd
+	MtSrvTradesAddExt
+	MtSrvTradesAddRequest
+	MtSrvTradesUpdate
+	;MtSrvTradesRestore
+	;MtSrvTradesCloseBy
+
+	;MtSrvTradeCommission
+	;MtSrvTradeCommissionAgent
+	;MtSrvTradeRollover
+
+	MtSrvStatementsBaseAll
+	;MtSrvStatementsUser
+	MtSrvStatementsRollovers
+
+	;MtSrvDealerConnect
+	;MtSrvDealerDisconnect
+	;MtSrvDealerGet
+	;MtSrvDealerPrice
+	;MtSrvDealerConfirm
+	;MtSrvDealerRequote
+	;MtSrvDealerReset
+	;MtSrvDealerClientReject
+
+	;MtSrvHistoryTickFilter
+	;MtSrvHistoryTickApply
+	;MtSrvHistoryCheck
+
+	;MtSrvTelnet
+	;MtSrvTelnetExt
+	MtSrvManagerProtocol

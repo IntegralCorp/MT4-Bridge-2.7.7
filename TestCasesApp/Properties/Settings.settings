@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TestCasesApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="folder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\MetaTrader4Server\plugins\integral</Value>
+    </Setting>
+    <Setting Name="instruments_folder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\MetaTrader4Server\plugins\integral</Value>
+    </Setting>
+    <Setting Name="scenarioFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\MetaTrader4Server\plugins\integral</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

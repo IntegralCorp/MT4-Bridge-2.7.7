@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="config\Configuration.cpp" />
+    <ClCompile Include="Proxy.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="config\stringfile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config\Configuration.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="config\stringfile.h" />
+    <ClInclude Include="MetaQuotes\MT4ServerAPI.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Proxy.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MT4.Proxy.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a2aad27f-2d28-40ae-a9c0-63665ea68246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7ac93010-ac4e-448c-ab2d-c07b9f618a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{9e22e929-0359-406c-92af-46373ead05b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

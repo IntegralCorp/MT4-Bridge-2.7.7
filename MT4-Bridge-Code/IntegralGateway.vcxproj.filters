@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="IntegralGateway.cpp" />
+    <ClCompile Include="FIX\IdcLog.cpp">
+      <Filter>Source Files\FIX</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\HTTP.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\Log.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\Zip.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPing\base64.cpp">
+      <Filter>Source Files\TCPing</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPing\tcping.cpp">
+      <Filter>Source Files\TCPing</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPing\ws-util.cpp">
+      <Filter>Source Files\TCPing</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\DebugUtil.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Reports\Reports.cpp">
+      <Filter>Source Files\Reports</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\StringTokenizer.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Bases\Gateway.cpp">
+      <Filter>Source Files\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegralAPI\IntegralAPI.cpp">
+      <Filter>Source Files\IntegralAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Configuration.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Config.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\misc\common.cpp">
+      <Filter>Source Files\Common\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Logger.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Bases\Trades\TradeDispatcher.cpp">
+      <Filter>Source Files\Bases\Trades</Filter>
+    </ClCompile>
+    <ClCompile Include="Risk\CloudWatch.cpp">
+      <Filter>Source Files\Risk</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegralAPI\Contexts\IntegralContext.cpp">
+      <Filter>Source Files\IntegralAPI\Contexts</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegralAPI\Common\IntegralMsg.cpp">
+      <Filter>Source Files\IntegralAPI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Bases\Trades\ExecutionBase.cpp">
+      <Filter>Source Files\Bases\Trades</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegralAPI\Contexts\Config\SessionSettings.cpp">
+      <Filter>Source Files\IntegralAPI\Contexts\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\PluginContext.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\StringFile.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Bases\Trades\TradeRequestBase.cpp">
+      <Filter>Source Files\Bases\Trades</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegralAPI\Bases\SettingsDispatcher.cpp">
+      <Filter>Source Files\IntegralAPI\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegralAPI\Contexts\Dispatchers\IntegralSession.cpp">
+      <Filter>Source Files\IntegralAPI\Contexts\Dispatchers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegralAPI\Contexts\Dispatchers\IntegralSessionBase.cpp">
+      <Filter>Source Files\IntegralAPI\Contexts\Dispatchers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="API\MT4ServerAPI.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="FIX\IdcLog.h">
+      <Filter>Header Files\FIX</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\HTTP.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\Log.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\Zip.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPing\base64.h">
+      <Filter>Header Files\TCPing</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPing\tcping.h">
+      <Filter>Header Files\TCPing</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPing\tee.h">
+      <Filter>Header Files\TCPing</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPing\ws-util.h">
+      <Filter>Header Files\TCPing</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\AutoFree.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\AutoHeapFree.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\DebugUtil.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\NetworkMon.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\StringUtil.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\threadmap.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ThreadMon.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Risk\Ack.h">
+      <Filter>Header Files\Risk</Filter>
+    </ClInclude>
+    <ClInclude Include="Risk\CloudWatch.h">
+      <Filter>Header Files\Risk</Filter>
+    </ClInclude>
+    <ClInclude Include="Risk\Receipt.h">
+      <Filter>Header Files\Risk</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaQuotes\MT4Helper.h">
+      <Filter>Header Files\MetaQuotes</Filter>
+    </ClInclude>
+    <ClInclude Include="Reports\Reports.h">
+      <Filter>Header Files\Reports</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StringTokenizer.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Bases\Gateway.h">
+      <Filter>Header Files\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\IntegralAPI.h">
+      <Filter>Header Files\IntegralAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Configuration.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Config.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\misc\common.h">
+      <Filter>Header Files\Common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\StringRef.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\MTVector.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Logger.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralMsgExecution.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Bases\Trades\TradeDispatcher.h">
+      <Filter>Header Files\Bases\Trades</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralMsgOrder.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralMsgLogout.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\StringFile.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\smart_ptr.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralContextBase.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Contexts\IntegralContext.h">
+      <Filter>Header Files\IntegralAPI\Contexts</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralProtocol.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Helpers.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Const.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralMsgDontKnowTrade.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralMsgOrderStatusRequest.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralMsgMarketDataRequest.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralMsg.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralMsgBook.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralProtocolData.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralMsgLogon.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Bases\Trades\ExecutionBase.h">
+      <Filter>Header Files\Bases\Trades</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Contexts\Config\SessionSettings.h">
+      <Filter>Header Files\IntegralAPI\Contexts\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\PluginContext.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Bases\Group.h">
+      <Filter>Header Files\IntegralAPI\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Bases\Route.h">
+      <Filter>Header Files\IntegralAPI\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Bases\Instrument.h">
+      <Filter>Header Files\IntegralAPI\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="Risk\IntegralReceipt.h">
+      <Filter>Header Files\Risk</Filter>
+    </ClInclude>
+    <ClInclude Include="Bases\Common\SymbolPosition.h">
+      <Filter>Header Files\Bases\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Bases\Trades\TradeRequest.h">
+      <Filter>Header Files\Bases\Trades</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\RecordDataBase.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Bases\Trades\TradeRequestBase.h">
+      <Filter>Header Files\Bases\Trades</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralOrder.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Bases\BasesTools.h">
+      <Filter>Header Files\IntegralAPI\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Bases\SettingsDispatcher.h">
+      <Filter>Header Files\IntegralAPI\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Contexts\Dispatchers\IntegralSession.h">
+      <Filter>Header Files\IntegralAPI\Contexts\Dispatchers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Contexts\Dispatchers\IntegralSessionBase.h">
+      <Filter>Header Files\IntegralAPI\Contexts\Dispatchers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Common\IntegralMsgTradeCapture.h">
+      <Filter>Header Files\IntegralAPI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralAPI\Bases\MarketRange.h">
+      <Filter>Header Files\IntegralAPI\Bases</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="IntegralGateway.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{64665e29-6733-459b-8814-cb324f61ce9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{07fdbe1f-54f3-4dfe-938e-c84c7d7639ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2c4c2ad7-9b4c-41ab-9e0f-b768dc9eb7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{88c8d71d-fac5-4a50-84d5-8c02bb4a5c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FIX">
+      <UniqueIdentifier>{d75600a0-41a0-4bfc-910f-ac03978bd311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FIX">
+      <UniqueIdentifier>{2a9a78f6-5b2a-4721-86bd-6e686d2f0e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{9b55b72c-6174-4a5b-a333-dbafb5cc3be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{4619063d-d97e-409d-a277-97ce7214535a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TCPing">
+      <UniqueIdentifier>{171cffa4-94f1-4e9e-ad04-c2643246e90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TCPing">
+      <UniqueIdentifier>{dbb88b01-d619-4460-89b5-d1cdfe3af58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{1adcd5f1-3ff1-4c3d-902a-aab063f3ebc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{9b64a12a-10b7-4640-ace4-6c2b856ae77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Risk">
+      <UniqueIdentifier>{1a37c22a-e8fc-4f2b-936a-e777ad505978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Risk">
+      <UniqueIdentifier>{8d935df4-7ae4-48da-943b-e2d0b9cb3030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MetaQuotes">
+      <UniqueIdentifier>{40c939d4-1bcb-4f68-9eba-0e4db11fbdd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MetaQuotes">
+      <UniqueIdentifier>{74717475-0748-4b9c-ba9d-535ba1bb769c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reports">
+      <UniqueIdentifier>{3a536fdf-bfc8-4199-8d8a-9add5ad48ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Reports">
+      <UniqueIdentifier>{49038a9d-fb71-446d-aec8-edc0a184f196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Queue">
+      <UniqueIdentifier>{5ed490b5-867f-4b93-a577-835d7def314b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IntegralAPI">
+      <UniqueIdentifier>{17464c49-82ec-4a7f-b6e6-3600d3c7b3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IntegralAPI">
+      <UniqueIdentifier>{cf2f46d4-50a6-4958-81f7-86cfc4349785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IntegralAPI\Bases">
+      <UniqueIdentifier>{54967f65-60c3-4e42-8aca-c6cfaa26664f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IntegralAPI\Bases">
+      <UniqueIdentifier>{46367a16-1cad-4ccf-b5fa-c32202588035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IntegralAPI\Common">
+      <UniqueIdentifier>{1fa870fb-e0e0-4345-9c1d-36b9eb7ea92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IntegralAPI\Common">
+      <UniqueIdentifier>{93d9ef64-1fae-4a2f-b017-1f6361f2de8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IntegralAPI\Contexts">
+      <UniqueIdentifier>{501d33fb-f37c-432f-95e4-3815f04ba79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IntegralAPI\Contexts">
+      <UniqueIdentifier>{9a663ca3-523d-4457-a6c5-31eb9406da46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{c8eb252f-c6be-4fd6-866a-7ff8802eca09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{26c894d6-18be-49c1-bf02-2d6cd99eb3b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bases">
+      <UniqueIdentifier>{f122cecf-678a-4d18-a789-21a19170cc04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bases">
+      <UniqueIdentifier>{82d49b16-37ab-484c-8054-c4da879143b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\Misc">
+      <UniqueIdentifier>{baeffb71-6a6c-419e-a4b8-a10971ca6658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common\Misc">
+      <UniqueIdentifier>{a7b9530d-b48c-4a26-978e-96e475e25eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{6a766db9-cfb3-4800-b1ec-1466b362d4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bases\Trades">
+      <UniqueIdentifier>{95cb25fa-658f-4e00-8e2b-7c9a0a1ec8c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bases\Trades">
+      <UniqueIdentifier>{618f6896-9e63-4481-ad42-12d00faf1d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Config">
+      <UniqueIdentifier>{dbda739d-4bad-4f3b-b835-b35c992e96d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Bases">
+      <UniqueIdentifier>{42bab79d-35ed-4c23-b230-fca532cccb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Queue">
+      <UniqueIdentifier>{a167a0a2-6e55-4099-9cc0-5838922b5d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IntegralAPI\Contexts\Dispatchers">
+      <UniqueIdentifier>{045e2b33-af8c-4460-897e-0b88315145d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IntegralAPI\Contexts\Dispatchers">
+      <UniqueIdentifier>{3ad90bcf-a950-46ea-837f-c973d2621db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IntegralAPI\Contexts\Config">
+      <UniqueIdentifier>{86a86869-9061-4df5-a517-7526ef63bcd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IntegralAPI\Contexts\Config">
+      <UniqueIdentifier>{ad38ac3f-03a9-4e5d-950b-f95a7fda2d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{ad839e7e-0833-4073-9903-55c686461301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bases\Common">
+      <UniqueIdentifier>{a3b331bb-e4b5-48e3-bc35-5d18f1854529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bases\Quotes">
+      <UniqueIdentifier>{c1b4aaa4-16ef-4102-80ea-06be9e4c8424}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IntegralGateway.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="FIX\FIX43.xml">
+      <Filter>Header Files\FIX</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Osman.txt" />
+  </ItemGroup>
+</Project>

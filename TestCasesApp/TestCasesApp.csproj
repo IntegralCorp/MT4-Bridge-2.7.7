@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A5C6FEDE-69CD-4A83-BF7D-FF10080D6502}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TestCasesApp</RootNamespace>
+    <AssemblyName>TestCasesApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FileHelpers, Version=3.4.1.0, Culture=neutral, PublicKeyToken=3e0c08d59cc3d657, processorArchitecture=MSIL">
+      <HintPath>..\packages\FileHelpers.3.4.1\lib\net45\FileHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFix, Version=1.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QuickFix.Net.1.8.0\lib\QuickFix.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CFixField.cs" />
+    <Compile Include="CFixMessage.cs" />
+    <Compile Include="CFixData.cs" />
+    <Compile Include="Common\CDictionary.cs" />
+    <Compile Include="COrders.cs" />
+    <Compile Include="CRawReport.cs" />
+    <Compile Include="CTrade210.cs" />
+    <Compile Include="CustodyType.cs" />
+    <Compile Include="FixMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FixMessage.Designer.cs">
+      <DependentUpon>FixMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scenario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scenario.Designer.cs">
+      <DependentUpon>Scenario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScenarioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScenarioForm.Designer.cs">
+      <DependentUpon>ScenarioForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestCase.cs" />
+    <Compile Include="TimeInForceConvertor.cs" />
+    <Compile Include="DateConvertor.cs" />
+    <Compile Include="DateTimeExtensions.cs" />
+    <Compile Include="Instrument.cs" />
+    <Compile Include="InstrumentsEngine.cs" />
+    <Compile Include="MARGIN_CALCULATION.cs" />
+    <Compile Include="MyCulture.cs" />
+    <Compile Include="Opstring.cs" />
+    <Compile Include="MoneyConvertor.cs" />
+    <Compile Include="BooleanConvertor.cs" />
+    <Compile Include="ProfitCalculation.cs" />
+    <Compile Include="Reason.cs" />
+    <Compile Include="StringConvertor.cs" />
+    <Compile Include="QtyConvertor.cs" />
+    <Compile Include="PriceConvertor.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FixMessage.resx">
+      <DependentUpon>FixMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Scenario.resx">
+      <DependentUpon>Scenario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScenarioForm.resx">
+      <DependentUpon>ScenarioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="FIX43.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
